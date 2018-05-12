@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find dji_sdk)/launch/sdk.launch" />
+  <include file="$(find dronet)/launch/logging.launch" />
+</launch>
