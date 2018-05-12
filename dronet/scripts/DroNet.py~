@@ -133,7 +133,7 @@ class DroNet:
         # Lasagne object for the network
         self.CollisionProbability, self.TurnAngle = network(self.X)
 
-        if is_training:
+        if not is_training:
             # collision probability for training
             # and testing. Output is a theano object
             self.collision_prob      = get_output(self.CollisionProbability)
