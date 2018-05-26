@@ -1,4 +1,0 @@
-<launch>
-  <node pkg="dronet" name="dronet_logging_node" type="logger.py" >
-  </node>
-</launch>
